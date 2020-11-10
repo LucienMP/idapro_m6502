@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE target SYSTEM "gdb-target.dtd">
+<target version="1.0">
+<architecture>m6502</architecture>
+  <feature name="mame.m6502">
+    <reg name="A" bitsize="8" type="int"/>
+    <reg name="X" bitsize="8" type="int"/>
+    <reg name="Y" bitsize="8" type="int"/>
+	<reg name="P" bitsize="8" type="int"/>
+    <reg name="sp" bitsize="16" type="data_ptr"/>
+    <reg name="pc" bitsize="16" type="code_ptr"/>
+  </feature>
+</target>
